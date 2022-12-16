@@ -5,8 +5,8 @@ const mensagensMotivicaionais = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         default: mongoose.Types.ObjectId
        },
-    titulo: { type: String,lowercase: true,required: true, },
-    mensagem: { type: String,lowercase: true,required: true},
+    titulo: { type: String,required: true },
+    mensagem: { type: String,required: true},
 }, {
     versionKey: false
 });

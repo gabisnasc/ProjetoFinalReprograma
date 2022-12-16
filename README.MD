@@ -30,11 +30,10 @@ O usuário poderá se cadastrar com seu e-mail, nome e cpf e irá gerar um id, t
 | ` GET/aplicativo/buscar` | Listar usuários   |
 | ` PATCH/aplicativo/atualizar/:id` | Alterar algum dado dos usuários   |
 | ` DELETE/aplicativo/deletar/:id` | Excluir usuário   |
-| 'GET/mensagens/   ' | localizar mensagens por id  |
-| 'POST/mensagens/' | Cadastrar novas mensagens |
-| 'PUT/mensagens/'| Alterar dados da mensagens |
-|' PATCH/mensagens/'  | Alterar mensagens |
-|' DELETE/mensagens/deletar/:id  '| Excluir mensagens     |
+| `GET/mensagens/` | localizar mensagens por id  |
+| `POST/mensagens/criar` | Cadastrar novas mensagens |
+| `PUT/mensagens/atualizar:id`| Alterar dados da mensagens |
+|`DELETE/mensagens/deletar/:id`| Excluir mensagens     |
 
 ### Recursos e tecnologias utilizadas para a construção da API:
 

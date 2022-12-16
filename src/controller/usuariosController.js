@@ -84,7 +84,7 @@ const deletarUsuarios = async (req, res) =>{
     })
 
 } catch (error) {
-    response.status(500).json({
+    res.status(500).json({
         message: "Tente novamente, usuário ainda não foi deletado"
     })
 }
