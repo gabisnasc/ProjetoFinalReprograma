@@ -1,0 +1,29 @@
+{
+  "name": "projeto-final",
+  "version": "1.0.0",
+  "description": "O projeto *Tranformar o mundo* ou *Já deu tudo certo* ou *Vai ficar tudo bem* é um projeto que busca o melhor de cada pessoa. No mundo de hoje somos consumidos pelo excesso de trabalho, pelas questões pessoais e por todos o problemas que nos afligem. *Vai ficar tudo bem* veio para ajudar na saúde mental de cada um que precisa de uma palavra de apoio, que se sente sozinho e/ou não tem mais esperança de dias melhores. Tendo como principal objetivo auxiliar a vida de quem precisa através de mensagens motivacionais.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabisnasc/Projeto-Final-Reprograma.git"
+  },
+ "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
