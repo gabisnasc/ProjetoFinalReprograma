@@ -36,7 +36,7 @@ O usuário poderá se cadastrar com seu e-mail, nome e cpf e irá gerar um id, t
 |`DELETE/mensagens/deletar/:id`| Excluir mensagens     |
 
 ### Recursos e tecnologias utilizadas para a construção da API:
-
+``
 ✔️Node.Js - versão 12.18.3;
 ✔️Gerenciador de pacotes Node.Js npm - versão 6.14.6;
 ✔️Dependências Node.Js:
@@ -53,6 +53,7 @@ O usuário poderá se cadastrar com seu e-mail, nome e cpf e irá gerar um id, t
 ✔️Git;
 ✔️Visual Studio Code;
 ✔️Insominia;
+``
 
 ## Como rodar a aplicação :arrow_forward:
 
