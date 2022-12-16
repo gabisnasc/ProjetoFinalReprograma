@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-const controller = require("../controller/MensagemController")
+const controller = require("../controller/mensagemController")
 
 // Criar as mensagens
 router.post("/criar", controller.criarMensagem)
